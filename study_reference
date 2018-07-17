@@ -1,0 +1,8 @@
+// This is a to-do list for Embedded Linux and network programming jobs//
+
+1. 802.11 WLAN (http://www.ni.com/tutorial/7131/zht)
+2. Google GPON introduction (OLT & ONT), protocal should be call OMCI
+3. Compiler ToolChain : Makefile + shell (similer to openWRT)
+4. git (git & github) : control version and git server
+5. debugging skill
+
