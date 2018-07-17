@@ -1,0 +1,15 @@
+mount -oremount,mand / (You need to be root to execute the below command.)
+
+touch advisory.txt
+
+./file_lock advisory.txt
+
+ls >>advisory.txt
+
+touch mandatory.txt
+
+chmod g+s,g-x mandatory.txt
+
+./file_lock mandatory.txt
+
+ls >>mandatory.txt
